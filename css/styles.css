@@ -143,9 +143,6 @@ section {
   margin: 0.7rem 0;
   box-shadow: var(--box-shadow-1);
 }
-.controls .control:active {
-  transform: translateY(-5px);
-}
 .controls .control i {
   font-size: 1.2rem;
   color: var(--color-grey2);

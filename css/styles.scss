@@ -149,17 +149,12 @@ section {
         margin: .7rem 0;
         box-shadow: var(--box-shadow-1);
 
-        &:active {
-            transform: translateY(-5px);
-        }
-
         i {
             font-size: 1.2rem;
             color: var(--color-grey2);
             pointer-events: none;
         }
     }
-
 }
 
 .theme-toggle {
