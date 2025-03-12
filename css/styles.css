@@ -220,7 +220,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding: 2rem 18rem 2rem 0;
 }
 .header-content .right-header .name {
   font-size: 2.5rem;
@@ -232,8 +232,8 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
-  font-size: 20px;
-  letter-spacing: 1.2px;
+  font-size: 1.1rem;
+  letter-spacing: 1.1px;
 }
 
 /*ABOUT SECTION*/
@@ -300,11 +300,11 @@ section {
 }
 .about-container .left-about p {
   text-align: left;
+  letter-spacing: 1px;
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey2);
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.1rem;
 }
 .about-container .left-about h4 {
   font-size: 2rem;
@@ -487,7 +487,6 @@ section {
   color: var(--color-grey3);
   line-height: 2rem;
   padding-bottom: 1rem;
-  font-weight: bold;
 }
 .portfolios .portfolio-item .hover-items {
   width: 100%;
