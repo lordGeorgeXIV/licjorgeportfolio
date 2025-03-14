@@ -436,7 +436,8 @@ section {
 }
 .timeline .timeline-item p {
   color: var(--color-grey2);
-  font-weight: bold;
+  line-height: 2rem;
+  padding-bottom: 1rem;
 }
 
 .port-text {
