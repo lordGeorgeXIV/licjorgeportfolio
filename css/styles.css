@@ -265,6 +265,7 @@ section {
   display: flex;
   align-items: center;
   position: relative;
+  padding-bottom: 0.5rem;
 }
 
 .about-container .right-about .about-item {
@@ -323,7 +324,15 @@ section {
 
 .about-container .left-about {
   padding-right: 5rem;
-  
+  padding-bottom: 1rem;
+}
+
+.about-container .left-about p:first-child {
+  padding-top: 1rem;
+}
+
+.about-container .left-about p:last-child {
+  padding-bottom: 1rem;
 }
 
 .about-container .left-about p {
@@ -800,6 +809,8 @@ section {
   display: flex;
   align-items: center;
   overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
 
 .main-btn .btn-text {
